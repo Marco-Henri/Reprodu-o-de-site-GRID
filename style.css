@@ -1,0 +1,1110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: "Cairo" ,  sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+   
+}
+
+header{
+    background-color: #e6e4e4;
+    width: 1900px;
+    height: 47px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 480px;
+    font-family: "Cairo" , sans-serif;
+    }
+    #header-right{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 480px;
+        font-family: "Cairo" , sans-serif;
+    }
+
+#iconmail{
+    width: 14px;
+    margin-left: 15%;
+   }
+   #icons{
+    width: 14px;
+    height:14px;
+   }
+   #pages{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: "Cairo" , sans-serif;
+    font-weight: bold;
+    width: 700px;
+    height: 79px;
+    margin-left: 15px ;
+    
+    
+}
+#home-pages{
+    height: 31px;
+    width: 46px;
+    color: rgb(13, 202, 13);
+    font-family: "Cairo" , sans-serif;
+   }
+   #itens-pages{
+    height: 31px;
+    width: 46px;
+    color: rgb(0, 0, 0);
+    font-family: "Cairo" , sans-serif;
+   }
+
+   #pages-drop:hover #menu-drop{
+    opacity: 1;
+    z-index: 99;
+    top: 75px;
+   }
+   #menu-drop{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 175px;
+    background-color: black ;
+    opacity: 0;
+    top: 50px;
+    z-index: -99;
+    transition: 0.5s;
+
+   }
+   #menu-drop li{
+    color: white;
+   }
+   #pages-right{
+    grid-column: 1/2;
+    grid-row: 1;
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    width: 300px;
+    margin-top: 20px;
+   }
+   #item-150{
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-size: 14px;
+   }
+   #principal{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: 80px 50px 432px;
+    margin-left: 300px;
+   }
+  
+   #logo-ogani{
+    grid-column: 2;
+    width: 119px;
+    height: 50px;
+    margin-top: 15px;
+   }
+   #search{
+    grid-column: 3/6;
+    display: flex;
+    width: 1100px;
+    height: 51px;
+    margin-left: 50px;
+    z-index: 99;
+    }
+    #search p{
+        width: 146px;
+        height: 45px;
+        font-size:16px; 
+        font-family: "Cairo", sans-serif;
+        font-weight: bold;
+        margin-top: 6px;
+        margin-left: 5px;
+    }
+    #seta-search{
+        width: 13px;
+        height: 13px;
+        margin-top: 14px;
+        margin-right: 15px;
+    }
+    #search button{
+        width: 110px;
+        height: 100%;
+        background-color: #7fad39;
+        font-size: 14px;
+        font-family: "Cairo",sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    #input-search{
+        width: 450px;
+        height: 100%;
+        outline: none;
+    }
+    #phone{
+      grid-column: 4; 
+      grid-row: 1;
+
+      display: grid;
+      grid-template-columns: 150px 350px;
+      grid-template-rows: 50px 50px 50px;
+      width: 250px;
+      height: 150px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    }
+    #phone-search{
+      grid-row: 1/2;
+      grid-column: 1;
+        margin-left: 120px;
+        margin-top: 20px;
+        width: 14px;
+        height: 18px;
+        margin-top: 100px;
+
+    }
+    #phone-num{
+        font-size: 18px;
+       font-weight: bold;
+       margin-right: 50px;
+       margin-top: 75px;
+grid-column: 2;
+grid-row: 1;
+    }
+    #phone-support{
+      grid-column: 2;
+      grid-row: 1;
+      z-index: 99;
+color: #b2b2b2;
+margin-top: 105px;
+
+    }
+    
+  #menu-departments{
+    grid-column: 2;
+    grid-row: 2/4;
+    background-color: #7fad39;
+    display:flex;
+    text-align: center;
+    width: 260px;
+    height: 50px;
+    justify-content: center;
+    
+
+   }
+
+   #menu-d{
+    width: 14px;
+    height: 16px;
+    color: white;
+    margin-top: 15px;
+   }
+   #menu-departments a{
+    width: 130px;
+    height: 33px;
+    font-size: 17px;
+color: white;
+font-family: "Cairo" , sans-serif;
+margin-left: 15px;
+font-weight: bold;
+margin-top: 7px;
+   }
+   #menu-d-arrow{
+    width: 15px;
+    height: 14px;
+    color: white;
+    margin-top: 15px;
+   }
+   #lista-menu{
+    grid-column: 2;
+    grid-row: 3/6 ;
+    background-color: white;
+    border: #b2b2b2 solid 1px;
+    border-top: none;
+    width: 260px;
+   margin-top: 10px;
+   }
+   #lista-ul{
+    list-style: none;
+    width: 210px;
+    height: 453px;
+    
+   }
+
+   #itens-lista-ul{
+width: 188px;
+height: 39px;
+font-size: 16px;
+text-align: justify;
+font-family: "Cairo",sans-serif;
+}
+   #banner{
+    grid-column: 3/6;
+    grid-row: 3;
+    width: 1000px;
+    height: 431px;
+    margin-left: 75px;
+}
+#banner img{
+background-size: cover;
+
+}
+
+   #products01{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: 270px 44px;
+    justify-content: space-around;
+    align-items: center;
+}
+  #prod01{
+    grid-column: 2 / 3;
+   
+  }
+  #prod02{
+    grid-column: 3 / 4;
+    
+  }
+  #prod03{
+    grid-column: 4 / 5;
+    
+  }
+  #prod04{
+    grid-column: 5 / 6;
+    
+  }
+  #chevron-left-prod01{
+    grid-column: 1;
+    grid-row: 1;
+    width: 9px;
+    height: 18px;
+    margin-left: 100%;
+  }
+  #chevron-right-prod01{
+    grid-column: 6;
+    grid-row: 1;
+    width: 9px;
+    height: 18px;
+    
+  }
+  #txt-prod01{
+    grid-column: 2 / 3;
+    grid-row: 2;
+    font-size: 22px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    width: 270px
+  }
+  #txt-prod02{
+    grid-column: 3 / 4;
+    grid-row: 2;
+    font-size: 22px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    text-align: center;
+    width: 270px
+  }
+  #txt-prod03{
+    grid-column: 4 / 5;
+    grid-row: 2;
+    font-size: 22px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    text-align: center;
+    width: 270px
+  }
+  #txt-prod04{
+    grid-column: 5 / 6;
+    grid-row: 2;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+   margin-bottom: 80px;
+   width: 270px
+  }
+  #products02{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 170px 270px 66px 270px 66px 263px 145px 60px 110px 110px 170px;
+  }
+#featured{
+  grid-column: 3/5;
+  text-align: center;
+ margin-right: 50px;
+ font-size: 36px;
+font-weight: bold;
+grid-row: 1;
+
+}
+#barra-verde01{
+grid-column: 1 / 7;
+position: absolute;
+left: 47.2%;
+grid-row: 1;
+margin-top: 70px;
+height: 4px;
+width: 75px;
+background-color: #7fad39;
+}
+
+#lista-featured {
+  grid-column: 3 / 5;
+  grid-row: 1;
+  display: flex;
+list-style: none;
+justify-content: space-around;
+
+height: 27px;
+padding-top: 85px;
+}
+#lista-featured li{
+  font-size: 18px;
+}
+#feature-1{
+  grid-column: 2/3;
+  grid-row: 2;
+}
+
+#feature-2{
+  grid-column: 3/4;
+  grid-row: 2;
+}
+
+#feature-3{
+  grid-column: 4/5;
+  grid-row: 2;
+}
+
+#feature-4{
+  grid-column: 5/6;
+  grid-row: 2;
+}
+#feature-5{
+  grid-column: 2/3;
+  grid-row: 4;
+ width: 272px;
+ height: 272px;
+}
+
+#feature-6{
+  grid-column: 3/4;
+  grid-row: 4;
+}
+
+#feature-7{
+  grid-column: 4/5;
+  grid-row: 4;
+}
+
+#feature-8{
+  grid-column: 5/6;
+  grid-row: 4;
+}
+
+#crab-pool-txt01{
+  grid-column: 2/3;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+}
+#crab-pool-txt02{
+  grid-column: 3/4;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+}
+#crab-pool-txt03{
+  grid-column: 4/5;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+}
+#crab-pool-txt04{
+  grid-column: 5/6;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+ 
+}
+#crab-pool-txt05{
+  grid-column: 2/3;
+  grid-row: 5;
+  text-align: center;
+  width: 272px;
+}
+#crab-pool-txt06{
+  grid-column: 3/4;
+  grid-row: 5;
+  text-align: center;
+  width: 272px;
+}
+#crab-pool-txt07{
+  grid-column: 4/5;
+  grid-row: 5;
+  text-align: center;
+  width: 272px;
+}
+#crab-pool-txt08{
+  grid-column: 5/6;
+  grid-row: 5;
+  text-align: center;
+  width: 272px;
+ 
+}
+#dolares01{
+  grid-column: 2/3;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+#dolares02{
+  grid-column: 3/4;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+#dolares03{
+  grid-column: 4/5;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+#dolares04{
+  grid-column: 5/6;
+  grid-row: 3;
+  text-align: center;
+  width: 272px;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 18px;
+  }
+  #dolares05{
+    grid-column: 2/3;
+    grid-row: 5;
+    text-align: center;
+    width: 272px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  #dolares06{
+    grid-column: 3/4;
+    grid-row: 5;
+    text-align: center;
+    width: 272px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  #dolares07{
+    grid-column: 4/5;
+    grid-row: 5;
+    text-align: center;
+    width: 272px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  #dolares08{
+    grid-column: 5/6;
+    grid-row: 5;
+    text-align: center;
+    width: 272px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+    }
+    #banner01{
+      grid-column: 2/4;
+      grid-row: 6;
+      width: 591px;
+      margin-top: 60px;
+    }
+    #banner02{
+      grid-column: 4/6;
+      grid-row: 6;
+      width: 591px;
+      margin-top: 60px;
+    }
+    #latest-products{
+      grid-column: 2/3;
+      grid-row: 8;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: start;
+    }
+    #top-rated-products{
+      grid-column: 3/5;
+      grid-row: 8;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+     margin-right: 230px;
+    
+    }
+    #review-products{
+      grid-column: 4/6;
+      grid-row: 8;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin-right: 15px;
+    }
+    #chevron-left-latest{
+      grid-column: 2/3;
+      grid-row: 8;
+      width: 10px;
+      height: 15px;
+     margin-left: 96%;
+     margin-top: 17.3px;
+    }
+    #chevron-right-latest{
+      grid-column: 3/4;
+      grid-row: 8;
+      width: 10px;
+      height: 15px;
+     margin-top: 17.3px;
+     margin-left: 1%;
+    }
+    #chevron-left-rated{
+      grid-column: 3/5;
+      grid-row: 8;
+      width: 10px;
+      height: 15px;
+     margin-left: 67.4%;
+     margin-top: 17.3px;
+     
+    }
+    #chevron-right-rated{
+      grid-column: 3/5;
+      grid-row: 8;
+      width: 10px;
+      height: 15px;
+      margin-left: 69.5%;
+     margin-top: 17.3px;
+     
+    }
+    #chevron-left-review{
+      grid-column: 4/6;
+      grid-row: 8;
+      width: 10px;
+      height: 15px;
+     margin-left: 78.5%;
+     margin-top: 17.3px;
+    }
+    #chevron-right-review{
+      grid-column: 4/6;
+      grid-row: 8;
+      width: 10px;
+      height: 15px;
+     margin-top: 17.3px;
+     margin-left: 80.6%;
+    }
+    #lp-1-01{
+      grid-column: 2/3;
+      grid-row: 9;
+    }
+    #crab-lp-1-01{
+      grid-column: 2/3;
+      grid-row: 9;
+      margin-left: 115px;
+      margin-top: 10px;
+
+    }
+    #crab-lp-1-02{
+      grid-column: 2/3;
+      grid-row: 9;
+      margin-left: 115px;
+      margin-top: 35px;
+      font-weight: bold;
+    }
+    #lp-1-02{
+      grid-column: 3/4;
+      grid-row: 9;
+     margin-left: 100px;
+      
+    }
+    #crab-lp-1-03{
+      grid-column: 3/5;
+      grid-row: 9;
+      margin-left: 215px;
+      margin-top: 10px;
+      
+    }
+    #crab-lp-1-04{
+      grid-column: 3/5;
+      grid-row: 9;
+      margin-left: 215px;
+      margin-top: 35px;
+      font-weight: bold;
+      }
+      #lp-1-03{
+        grid-column: 4/6;
+        grid-row: 9;
+       margin-left: 225px;
+        
+      }
+      #crab-lp-1-05{
+        grid-column: 4/6;
+        grid-row: 9;
+        margin-left: 340px;
+        margin-top: 10px;
+        
+      }
+      #crab-lp-1-06{
+        grid-column: 4/6;
+        grid-row: 9;
+        margin-left: 340px;
+        margin-top: 35px;
+        font-weight: bold;
+        }
+        #lp-2-01{
+          grid-column: 2/3;
+          grid-row: 10;
+          margin-top: 30px;
+        }
+        #crab-lp-2-01{
+          grid-column: 2/3;
+          grid-row: 10;
+          margin-left: 115px;
+          margin-top: 10px;
+          margin-top: 30px;
+        }
+        
+        #crab-lp-2-02{
+          grid-column: 2/3;
+          grid-row: 10;
+          margin-left: 115px;
+          margin-top: 65px;
+          font-weight: bold;
+          
+        }
+        #lp-2-02{
+          grid-column: 3/4;
+          grid-row: 10;
+         margin-left: 100px;
+         margin-top: 30px;
+        }
+        #crab-lp-2-03{
+          grid-column: 3/5;
+          grid-row: 10;
+          margin-left: 215px;
+          margin-top: 10px;
+          margin-top: 30px;
+        }
+        #crab-lp-2-04{
+          grid-column: 3/5;
+          grid-row: 10;
+          margin-left: 215px;
+          margin-top: 65px;
+          font-weight: bold;
+          
+          }
+          #lp-2-03{
+            grid-column: 4/6;
+            grid-row: 10;
+           margin-left: 225px;
+           margin-top: 30px;
+          }
+          #crab-lp-2-05{
+            grid-column: 4/6;
+            grid-row: 10;
+            margin-left: 340px;
+            margin-top: 10px;
+            margin-top: 30px;
+          }
+          #crab-lp-2-06{
+            grid-column: 4/6;
+            grid-row: 10;
+            margin-left: 340px;
+            margin-top: 65px;
+            font-weight: bold;
+           
+            }
+            #lp-3-01{
+              grid-column: 2/3;
+              grid-row: 11;
+              margin-top: 60px;
+            }
+            #crab-lp-3-01{
+              grid-column: 2/3;
+              grid-row: 11;
+              margin-left: 115px;
+              margin-top: 60px;
+              
+            }
+            
+            #crab-lp-3-02{
+              grid-column: 2/3;
+              grid-row: 11;
+              margin-left: 115px;
+              margin-top: 95px;
+              font-weight: bold;
+              
+            }
+            #lp-3-02{
+              grid-column: 3/4;
+              grid-row: 11;
+             margin-left: 100px;
+             margin-top: 60px;
+              
+            }
+            #crab-lp-3-03{
+              grid-column: 3/5;
+              grid-row: 11;
+              margin-left: 215px;
+              margin-top: 60px;
+              
+            }
+            #crab-lp-3-04{
+              grid-column: 3/5;
+              grid-row: 11;
+              margin-left: 215px;
+              margin-top: 95px;
+              font-weight: bold;
+              
+              }
+              #lp-3-03{
+                grid-column: 4/6;
+                grid-row: 11;
+               margin-left: 225px;
+               margin-top: 60px;
+              }
+              #crab-lp-3-05{
+                grid-column: 4/6;
+                grid-row: 11;
+                margin-left: 340px;
+                margin-top: 60px;
+              }
+              #crab-lp-3-06{
+                grid-column: 4/6;
+                grid-row: 11;
+                margin-left: 340px;
+                margin-top: 95px;
+                font-weight: bold;
+              }
+              #grid-final-home{
+                display: grid;
+                grid-template-columns: repeat(6,1fr);
+               grid-template-rows:  114px 600px 252px 25px;
+              }
+              #from-the-blog{
+              grid-column: 1/7;
+              text-align: center;
+               margin-right: 50px;
+               margin-left: 16px;
+
+               font-size: 36px;
+              font-weight: bold;
+              grid-row: 1;
+              width: 98vw;
+              }
+              #barra-verde02{
+              grid-column: 1/7;
+              position: absolute;
+              left: 48.5%;
+              grid-row: 1;
+              margin-top: 70px;
+              height: 4px;
+              width: 80px;
+              background-color: #7fad39;
+              
+              }
+              #blog-1{
+                grid-column: 2/3;
+                grid-row: 2;
+                width: 360px;
+                margin-top: 40px;
+                margin-left: -10px;
+              }
+              #blog-2{
+                grid-column: 3/4;
+                grid-row: 2;
+                margin-left: 110px;
+                width: 360px;
+                margin-top: 40px;
+              }
+
+              #blog-3{
+                grid-column: 4/5;
+                grid-row: 2;
+                margin-left: 90px;
+                width: 360px;
+                margin-top: 40px;
+              }
+              #calendar-01{
+                grid-column: 2/3;
+                grid-row: 2;
+                width: 21.5px;
+                height: 21.5px;
+                margin-left: -10px;
+                margin-top: 337.5px;
+              }
+              #calendar-02{
+                grid-column: 3/4;
+                grid-row: 2;
+                width: 21.5px;
+                height: 21.5px;
+                margin-left: 110px;
+                margin-top: 337.5px;
+              }
+              #calendar-03{
+                grid-column: 4/5;
+                grid-row: 2;
+                width: 21.5px;
+                height:21.5px;
+                margin-left: 90px;
+                margin-top: 337.5px;
+              }
+              #may-01{
+                grid-column: 2/3;
+                grid-row: 2;
+                color: #b2b2b2;
+                font-size: 16px;
+                height: 24px;
+            margin-left: 18px;
+                margin-top: 335px;
+                }
+                #may-02{
+                  grid-column: 3/4;
+                  grid-row: 2;
+                  color: #b2b2b2;
+                  font-size: 16px;
+                  height: 24px;
+                  margin-left: 138px;
+                  margin-top: 335px;
+                }
+                #may-03{
+                  grid-column: 4/5;
+                  grid-row: 2;
+                  color: #b2b2b2;
+                  font-size: 16px;
+                  height: 24px;
+                  margin-left: 118px;
+                  margin-top: 335px;
+                }
+                #comment-01{
+                  grid-column: 2/3;
+                  grid-row: 2;
+                  width: 21.5px;
+                  height: 21.5px;
+                  margin-left: 125px;
+                  margin-top: 339px;
+                }
+                #comment-02{
+                  grid-column: 3/4;
+                  grid-row: 2;
+                  width: 21.5px;
+                  height: 21.5px;
+                 margin-left: 240px;
+                  margin-top: 339px;
+                }
+                #comment-03{
+                  grid-column: 4/5;
+                  grid-row: 2;
+                  width: 21.5px;
+                  height: 21.5px;
+                  margin-left: 220px;
+                  margin-top: 339px;
+                }
+                #comment-num-01{
+                  grid-column: 2/3;
+                  grid-row: 2;
+                  color: #b2b2b2;
+                  font-size: 16px;
+                  height: 24px;
+                  margin-left: 152px;
+                  margin-top: 335px;
+                }
+                #comment-num-02{
+                  grid-column: 3/4;
+                  grid-row: 2;
+                  color: #b2b2b2;
+                  font-size: 16px;
+                  height: 24px;
+                  margin-left: 268px;
+                  margin-top: 335px;
+                }
+                #comment-num-03{
+                  grid-column: 4/5;
+                  grid-row: 2;
+                  color: #b2b2b2;
+                  font-size: 16px;
+                  height: 24px;
+                  margin-left: 248px;
+                  margin-top: 335px;
+                }
+                #blog-sub-title01{
+                  grid-column: 2/3;
+                  grid-row: 2;
+                  font-size: 20px;
+                  font-weight: bold;
+                  margin-left: -10px;
+                margin-top: 370px;
+                height: 37px;
+                }
+                
+                #blog-sub-title02{
+                  grid-column: 3/4;
+                  grid-row: 2;
+                  font-size: 20px;
+                  font-weight: bold;
+                  margin-left: 110px;
+                margin-top: 370px;
+                height: 37px;
+                }
+                #blog-sub-title03{
+                  grid-column: 4/5;
+                  grid-row: 2;
+                  height: 37px;
+                  font-size: 20px;
+                  font-weight: bold;
+                  margin-left: 90px;
+                margin-top: 370px;
+                }
+                #blog-text01{
+                  grid-column: 2/3;
+                  grid-row: 2;
+                  font-size: 16px;
+                  color: #6f6f6f;
+                  margin-left: -10px;
+                margin-top: 415px;
+                }
+                #blog-text02{
+                  grid-column: 3/4;
+                  grid-row: 2;
+                  font-size: 16px;
+                  color: #6f6f6f;
+                  margin-left: 110px;
+                margin-top: 415px;
+                }
+                #blog-text03{
+                  grid-column: 4/5;
+                  grid-row: 2;
+                  font-size: 16px;
+                  color: #6f6f6f;
+                  margin-left: 90px;
+                margin-top: 415px;
+                }
+                #logo-rodape{
+                  grid-row: 3;
+                  grid-column: 2/3;
+
+                }
+                #lista01-rodape{
+                  grid-row: 3;
+                  grid-column: 2/3;
+                  list-style: none;
+                  margin-top: 75px;
+
+
+                }
+                #lista02-rodape{
+                  grid-row: 3;
+                  grid-column: 3/4;
+                  list-style: none;
+                  margin-left: 120px;
+                }
+                #lista03-rodape{
+                  grid-row: 3;
+                  grid-column: 3/4;
+                  list-style: none;
+                  margin-left: 330px;
+                  margin-top: 27.6px;
+                }
+                #lista04-rodape{
+                  grid-row: 3;
+                  grid-column: 4/6;
+                  list-style: none;
+                  margin-left: 90px;
+                }
+                #lista03-title{
+                  font-weight: bold;
+                }
+                #lista03-sub{
+                  font-size: 14px;
+                }
+                #lista03-div{
+                  display: flex;
+                  margin-top: 40px;
+                }
+                #lista03-input{
+                  width: 200px;
+                  height: 46px;
+                  border: #e2e2e2 solid 1px;
+                }
+                #lista03-button{
+                  height: 46px;
+                  width: 122px;
+                  background-color: #7fad39;
+                  color: white;
+                  font-size: 16px;
+                  font-weight: bold;
+                  border: none;
+                  
+                }
+                #lista03-logos{
+                  display: flex;
+                  margin-top: 35px;
+                  justify-content: space-around;
+                width: 185px;
+                }
+                #lista03-logos img{
+                 width: 16px;
+                 height: 16px;
+                }
+                #lista04-rodape{
+                  width: 660px;
+                }
+                #barra-cinza{
+                  grid-column: 2/5;
+                  background-color: #dbdbdb;
+                  height: 1px;
+                  width: 100%;
+                }
+                #rodape-final-{
+                  grid-column: 2/5;
+                  display: flex;
+                  margin-bottom: 35px;
+                  
+                }
+                #heart-rodape{
+                  width: 16px;
+                  height: 16px;
+                  margin-top: 8px;
+                  margin-left: 5px;
+                }
+                #by-rodape-final{
+                  margin-left: 5px;
+                }
+                #colorib-rodape-final{
+                  color: blue;
+                
+                  margin-left: 5px;
+                }
+                #payment-rodape-final{
+                  width: 283px;
+                  height: 23px;
+                  margin-left: 450px;
+                }
